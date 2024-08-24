@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image:url("../assets/resort.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+}
+.main{
+    max-width: 1100px;
+    margin: auto;
+
+}
+ul{
+    list-style: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+    border: 1px solid transparent;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    margin-left: 30px;
+}
+ul li a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.6s ease;
+    border-radius: 8px;
+}
+.active{
+    background-color: black;
+    color: white;
+}
+
+.text{
+    margin-top: 250px;
+    margin-left: 600px;
+}
+h1{
+    color: white;
+}
+#btn1{
+    border: 1px solid white;
+    color: black;
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-left: 40px;
+    
+}
+#btn2{
+    border: 1px solid white;
+    color: black;
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+#btn1:hover{
+    background-color: white;
+    color: black;
+}
+#btn2:hover{
+    background-color: white;
+    color: black;
+}
+
